@@ -15,4 +15,5 @@ body {
   display: flex;
   width: 98vW;
   height: 100vh;
+  background-color: grey;
 }
