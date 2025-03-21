@@ -4,6 +4,7 @@ import { Container } from './assets/components/Container/Container'
 import { TechnicalSkills } from './assets/components/Pages/TechnicalSkills/TechnicalSkills'
 import { SocialSkills } from './assets/components/Pages/SocialSkills/SocialSkills'
 import { Studies } from './assets/components/Pages/Studies/Studies'
+import { Experience } from './assets/components/Pages/Experience/Experience'
 
 export const App = () => {
   return(
@@ -14,6 +15,7 @@ export const App = () => {
           <Route path="/" element={<Home />} />
           <Route path="/technicalSkills" element={<TechnicalSkills />} />
           <Route path="/socialSkills" element={<SocialSkills />} />
+          <Route path="/experience" element={<Experience />} />
           <Route path="/studies" element={<Studies />} />
         </Routes>      
         </Container>
