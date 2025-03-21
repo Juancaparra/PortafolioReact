@@ -1,8 +1,8 @@
 import React from 'react';
 import { Header } from '../../Layouts/Header/Header.jsx';
 import { Footer } from "../../Layouts/Footer/Footer.jsx";
-import colegio from '../../../../assets/images/Colegio.jpg'
-import sena from '../../../../assets/images/sena.jpg'
+import colegio from '../../../assets/images/colegio.jpg'
+import sena from '../../../assets/images/sena.jpg'
 import './Studies.css';
 
 export const Studies = () => {

@@ -1,4 +1,4 @@
-import '../ParagraphMain/ParagraphMain.css'
+import './ParagraphMain.css'
 
 export const ParagraphMain = ({contenido, estilos}) => {
     return (

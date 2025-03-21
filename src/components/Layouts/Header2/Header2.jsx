@@ -1,6 +1,6 @@
 
 import { ItemLista } from '../../Ui/ItemLista/ItemLista.jsx'
-import { ImgPersonal } from '../../Ui/ImgPersonal/ImgPersonal'
+import { ImgPersonal } from '../../Ui/ImgPersonal/ImgPersonal.jsx'
 import { NavLink } from "react-router-dom"
 
 export const Header2 = ({estilos, estilos2}) => {

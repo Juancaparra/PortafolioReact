@@ -1,6 +1,6 @@
 import { BtnSection } from "../../Ui/BtnSection/BtnSection.jsx"
 import { ItemLista } from "../../Ui/ItemLista/ItemLista.jsx"
-import '../Footer/Footer.css'
+import './Footer.css'
 
 
 export const Footer = () => {

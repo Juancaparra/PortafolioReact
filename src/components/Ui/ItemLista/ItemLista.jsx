@@ -1,4 +1,4 @@
-import '../ItemLista/ItemLista.css'
+import './ItemLista.css'
 
 export const ItemLista = ({contenido, children, estilos, estilos2="list"}) => {
     return (

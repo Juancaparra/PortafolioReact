@@ -1,5 +1,5 @@
 import { BtnSection } from "../../Ui/BtnSection/BtnSection.jsx"
-import '../SectionMenu/SectionMenu.css'
+import './SectionMenu.css'
 
 export const SectionMenu = () => {
   return (

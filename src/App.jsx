@@ -1,10 +1,10 @@
 import {Routes,Route} from 'react-router-dom'
-import { Home } from "./assets/components/Pages/Home/Home"
-import { Container } from './assets/components/Container/Container'
-import { TechnicalSkills } from './assets/components/Pages/TechnicalSkills/TechnicalSkills'
-import { SocialSkills } from './assets/components/Pages/SocialSkills/SocialSkills'
-import { Studies } from './assets/components/Pages/Studies/Studies'
-import { Experience } from './assets/components/Pages/Experience/Experience'
+import { Home } from "./components/Pages/Home/Home"
+import { Container } from './components/Container/Container'
+import { TechnicalSkills } from './components/Pages/TechnicalSkills/TechnicalSkills'
+import { SocialSkills } from './components/Pages/SocialSkills/SocialSkills'
+import { Studies } from './components/Pages/Studies/Studies'
+import { Experience } from './components/Pages/Experience/Experience'
 
 export const App = () => {
   return(

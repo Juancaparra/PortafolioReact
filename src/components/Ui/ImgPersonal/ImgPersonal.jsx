@@ -1,5 +1,5 @@
-import '../ImgPersonal/ImgPersonal.css'
-import FotoJuan from '../../../../assets/images/FotoJuan.jpeg'
+import './ImgPersonal.css'
+import FotoJuan from '../../../assets/images/FotoJuan.jpeg'
 
 export const ImgPersonal = ({estilos}) => {
     return (

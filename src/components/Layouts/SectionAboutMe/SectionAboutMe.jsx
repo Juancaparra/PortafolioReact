@@ -1,5 +1,5 @@
 import { ParagraphMain } from "../../Ui/ParagraphMain/ParagraphMain.jsx"
-import '../SectionAboutMe/SectionAboutMe.css'
+import './SectionAboutMe.css'
 
 export const SectionAboutMe = () => {
   return (

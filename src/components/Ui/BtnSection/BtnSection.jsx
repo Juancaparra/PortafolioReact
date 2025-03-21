@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import { NavLink } from "react-router-dom"
-import '../BtnSection/BtnSection.css'
+import './BtnSection.css'
 
 export const BtnSection = ({contenido, estilos, to}) => {
 

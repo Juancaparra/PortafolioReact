@@ -1,4 +1,4 @@
-import '../NameHeader/NameHeader.css'
+import './NameHeader.css'
 
 export const NameHeader = () => {
     return(
