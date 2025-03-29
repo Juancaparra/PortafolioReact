@@ -1,7 +1,53 @@
-.Header{
+.Header {
     background-color: black;
-    height: 30vh;
+    height: 60vh;
     width: 100vw;
     display: flex;
     justify-content: center;
+    align-items: center; /* Centrar contenido verticalmente */
+    color: white; /* Texto blanco */
+    font-family: 'Arial', sans-serif;
+    font-size: 2rem; /* Tamaño de texto base */
+}
+
+/* --- Media Queries para dispositivos responsivos --- */
+
+/* Móviles pequeños (320px - 480px) */
+@media (max-width: 480px) {
+    .Header {
+        height: 100vh; /* Reducir altura en móviles pequeños */
+        font-size: 1.5rem; /* Reducir tamaño del texto */
+    }
+}
+
+/* Móviles medianos (481px - 768px) */
+@media (max-width: 768px) {
+    .Header {
+        height: 25vh; /* Ajustar altura */
+        font-size: 1.8rem; /* Ajustar tamaño del texto */
+    }
+}
+
+/* Tablets (769px - 1024px) */
+@media (max-width: 1024px) {
+    .Header {
+        height: 28vh; /* Ajustar altura */
+        font-size: 2rem; /* Mantener tamaño del texto */
+    }
+}
+
+/* Laptops (1025px - 1440px) */
+@media (max-width: 1440px) {
+    .Header {
+        height: 30vh; /* Mantener altura */
+        font-size: 2.2rem; /* Aumentar ligeramente el tamaño del texto */
+    }
+}
+
+/* Escritorios grandes (1441px y más) */
+@media (min-width: 1441px) {
+    .Header {
+        height: 35vh; /* Aumentar altura en pantallas grandes */
+        font-size: 2.5rem; /* Aumentar tamaño del texto */
+    }
 }

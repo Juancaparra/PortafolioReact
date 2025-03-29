@@ -39,11 +39,8 @@ export const SocialSkills = () => {
           <div className="social-card">
             <span className="social-name">Adaptabilidad</span>
           </div>
-        </div>
-
-        <div className="container-level-english">
           <div className="social-card">
-            <span className="social-name">Nivel de Inglés: A2</span>
+            <span className="social-name">Nivel de Inglés A2</span>
           </div>
         </div>
       </div>

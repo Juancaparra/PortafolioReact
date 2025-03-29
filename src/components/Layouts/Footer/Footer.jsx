@@ -15,7 +15,7 @@ export const Footer = () => {
               <div className="icons-footer">
                   <ItemLista>
                     <a href="tel:+573006018981">
-                      <i class="LinksPersonal">Whatsapp</i>
+                      <i class="LinksPersonal">Teléfono</i>
                     </a>
                   </ItemLista>
 

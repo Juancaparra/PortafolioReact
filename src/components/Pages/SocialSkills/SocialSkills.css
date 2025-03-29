@@ -13,15 +13,16 @@
 .container-social-list {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
-    gap: 20px;
+    flex-wrap: wrap; /* Permite que las tarjetas se ajusten en filas */
+    gap: 20px; /* Espaciado entre las tarjetas */
+    width: 100%; /* Asegura que el contenedor ocupe todo el ancho */
 }
 
 .social-card {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 150px;
+    width: calc(50% - 20px); /* Dos tarjetas por fila */
     height: 100px;
     background-color: #333; /* Fondo oscuro */
     border-radius: 12px; /* Bordes redondeados */
@@ -44,4 +45,66 @@
 
 .container-level-english {
     margin-top: 20px;
+}
+
+/* --- Media Queries para dispositivos responsivos --- */
+
+/* Móviles pequeños (320px - 480px) */
+@media (max-width: 480px) {
+    .social-card {
+        width: 100%; /* Una tarjeta por fila en móviles pequeños */
+        height: 80px;
+    }
+
+    .social-name {
+        font-size: 14px;
+    }
+}
+
+/* Móviles medianos (481px - 768px) */
+@media (max-width: 768px) {
+    .social-card {
+        width: 100%; /* Una tarjeta por fila en móviles medianos */
+        height: 90px;
+    }
+
+    .social-name {
+        font-size: 15px;
+    }
+}
+
+/* Tablets (769px - 1024px) */
+@media (max-width: 1024px) {
+    .social-card {
+        width: calc(50% - 20px); /* Dos tarjetas por fila */
+        height: 100px;
+    }
+
+    .social-name {
+        font-size: 16px;
+    }
+}
+
+/* Laptops (1025px - 1440px) */
+@media (max-width: 1440px) {
+    .social-card {
+        width: calc(50% - 20px); /* Dos tarjetas por fila */
+        height: 110px;
+    }
+
+    .social-name {
+        font-size: 17px;
+    }
+}
+
+/* Escritorios grandes (1441px y más) */
+@media (min-width: 1441px) {
+    .social-card {
+        width: calc(30% - 20px); /* Dos tarjetas por fila */
+        height: 120px;
+    }
+
+    .social-name {
+        font-size: 18px;
+    }
 }

@@ -49,12 +49,162 @@
     text-align: center;
 }
 
-.titleStudies{
+.titleStudies {
     margin-bottom: 2rem;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
 }
 
 .imgStudies {
     font-size: 5rem;
     width: 140px; 
     height: 100px; 
+}
+
+/* --- Media Queries para dispositivos responsivos --- */
+
+/* Móviles pequeños (320px - 480px) */
+@media (max-width: 480px) {
+    .container-studies {
+        padding: 10px;
+    }
+
+    .titleStudies {
+        font-size: 20px;
+    }
+
+    .study-card {
+        width: 150px;
+        height: 200px;
+    }
+
+    .study-image {
+        width: 60px;
+        height: 60px;
+    }
+
+    .study-name {
+        font-size: 14px;
+    }
+
+    .study-description {
+        font-size: 12px;
+    }
+}
+
+/* Móviles medianos (481px - 768px) */
+@media (max-width: 768px) {
+    .container-studies {
+        padding: 15px;
+    }
+
+    .titleStudies {
+        font-size: 22px;
+    }
+
+    .study-card {
+        width: 180px;
+        height: 220px;
+    }
+
+    .study-image {
+        width: 70px;
+        height: 70px;
+    }
+
+    .study-name {
+        font-size: 15px;
+    }
+
+    .study-description {
+        font-size: 13px;
+    }
+}
+
+/* Tablets (769px - 1024px) */
+@media (max-width: 1024px) {
+    .container-studies {
+        padding: 20px;
+    }
+
+    .titleStudies {
+        font-size: 24px;
+    }
+
+    .study-card {
+        width: 200px;
+        height: 250px;
+    }
+
+    .study-image {
+        width: 80px;
+        height: 80px;
+    }
+
+    .study-name {
+        font-size: 16px;
+    }
+
+    .study-description {
+        font-size: 14px;
+    }
+}
+
+/* Laptops (1025px - 1440px) */
+@media (max-width: 1440px) {
+    .container-studies {
+        padding: 25px;
+    }
+
+    .titleStudies {
+        font-size: 26px;
+    }
+
+    .study-card {
+        width: 220px;
+        height: 270px;
+    }
+
+    .study-image {
+        width: 90px;
+        height: 90px;
+    }
+
+    .study-name {
+        font-size: 17px;
+    }
+
+    .study-description {
+        font-size: 15px;
+    }
+}
+
+/* Escritorios grandes (1441px y más) */
+@media (min-width: 1441px) {
+    .container-studies {
+        padding: 30px;
+    }
+
+    .titleStudies {
+        font-size: 28px;
+    }
+
+    .study-card {
+        width: 240px;
+        height: 300px;
+    }
+
+    .study-image {
+        width: 100px;
+        height: 100px;
+    }
+
+    .study-name {
+        font-size: 18px;
+    }
+
+    .study-description {
+        font-size: 16px;
+    }
 }

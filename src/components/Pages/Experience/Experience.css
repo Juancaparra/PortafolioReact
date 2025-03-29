@@ -1,3 +1,4 @@
+/* Estilo base para las tarjetas */
 .container-experience {
     text-align: center;
     padding: 20px;
@@ -36,7 +37,7 @@
     box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3); /* Sombra más intensa */
 }
 
-.experience-image {
+.imgStudies {
     width: 80px;
     height: 80px;
     margin-bottom: 10px;
@@ -54,4 +55,151 @@
     font-size: 14px;
     color: #ddd; /* Texto gris claro */
     text-align: center;
+}
+
+/* --- Media Queries para dispositivos responsivos --- */
+
+/* Móviles pequeños (320px - 480px) */
+@media (max-width: 480px) {
+    .container-experience {
+        padding: 10px;
+    }
+
+    .titleExperience {
+        font-size: 20px;
+    }
+
+    .experience-card {
+        width: 150px;
+        height: 200px;
+    }
+
+    .imgStudies {
+        width: 60px;
+        height: 60px;
+    }
+
+    .experience-name {
+        font-size: 14px;
+    }
+
+    .experience-description {
+        font-size: 12px;
+    }
+}
+
+/* Móviles medianos (481px - 768px) */
+@media (max-width: 768px) {
+    .container-experience {
+        padding: 15px;
+    }
+
+    .titleExperience {
+        font-size: 22px;
+    }
+
+    .experience-card {
+        width: 180px;
+        height: 220px;
+    }
+
+    .imgStudies {
+        width: 70px;
+        height: 70px;
+    }
+
+    .experience-name {
+        font-size: 15px;
+    }
+
+    .experience-description {
+        font-size: 13px;
+    }
+}
+
+/* Tablets (769px - 1024px) */
+@media (max-width: 1024px) {
+    .container-experience {
+        padding: 20px;
+    }
+
+    .titleExperience {
+        font-size: 24px;
+    }
+
+    .experience-card {
+        width: 200px;
+        height: 250px;
+    }
+
+    .imgStudies {
+        width: 80px;
+        height: 80px;
+    }
+
+    .experience-name {
+        font-size: 16px;
+    }
+
+    .experience-description {
+        font-size: 14px;
+    }
+}
+
+/* Laptops (1025px - 1440px) */
+@media (max-width: 1440px) {
+    .container-experience {
+        padding: 25px;
+    }
+
+    .titleExperience {
+        font-size: 26px;
+    }
+
+    .experience-card {
+        width: 220px;
+        height: 270px;
+    }
+
+    .imgStudies {
+        width: 90px;
+        height: 90px;
+    }
+
+    .experience-name {
+        font-size: 17px;
+    }
+
+    .experience-description {
+        font-size: 15px;
+    }
+}
+
+/* Escritorios grandes (1441px y más) */
+@media (min-width: 1441px) {
+    .container-experience {
+        padding: 30px;
+    }
+
+    .titleExperience {
+        font-size: 28px;
+    }
+
+    .experience-card {
+        width: 240px;
+        height: 300px;
+    }
+
+    .imgStudies {
+        width: 100px;
+        height: 100px;
+    }
+
+    .experience-name {
+        font-size: 18px;
+    }
+
+    .experience-description {
+        font-size: 16px;
+    }
 }

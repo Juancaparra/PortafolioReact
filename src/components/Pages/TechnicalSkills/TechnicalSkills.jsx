@@ -51,11 +51,11 @@ export const TechnicalSkills = () => {
           <h3 className="technicalSkillsTitle">Base de datos</h3>
           <div className="container-skills-list">
             <div className="skill-card">
-              <img src="/images/sql.png" alt="SQL" className="skill-image" />
+            <i class="bi bi-filetype-sql skill-icon"></i>
               <span className="skill-name">SQL</span>
             </div>
             <div className="skill-card">
-              <img src="/images/mongodb.png" alt="MongoDB" className="skill-image" />
+            <i class='bx bxl-mongodb skill-icon' ></i>
               <span className="skill-name">MongoDB</span>
             </div>
           </div>

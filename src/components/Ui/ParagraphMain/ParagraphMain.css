@@ -1,6 +1,16 @@
-.containerParagraph{
-    margin-left: 2rem;
-    margin-right: 2rem;
-    text-align: center;
-    margin-bottom: 2rem;
+.containerParagraph {
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+    text-align: justify;
+    margin-bottom: 2rem; /* Espacio entre el texto y los botones */
+    background-color: rgb(49, 49, 49);
+    color: rgb(194, 194, 194);
+    border-radius: 10px;
+}
+@media (max-width: 768px) {
+    .containerParagraph {
+        margin-bottom: 2rem; /* Aumenta el espacio entre secciones */
+    }
 }
